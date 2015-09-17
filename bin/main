@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+var app = require('../lib/app');
+var port = process.argv[2] || 8190; 
+
+try{
+  app.listen(port);
+  console.log("listening on port", port);
+} catch (e) {
+  console.error('Failed to start app on port',port,':', e);
+  process.exit(1);
+}

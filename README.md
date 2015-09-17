@@ -1,2 +1,4 @@
-# node-sample-app
-Sample Node app
+node-sample-app
+===============
+
+A simple app for code pairing interviews

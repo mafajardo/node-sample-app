@@ -1,0 +1,23 @@
+{
+  "name": "node-sample-app",
+  "description": "A simple app for code pairing",
+  "version": "0.0.1",
+  "private": true,
+  "author": "Shutterstock LLC",
+  "homepage": "",
+  "contributors": [ "Bernhard Kovacevich <bkovacevich@shutterstock.com>", "David Fenster <dfenster@shutterstock.com>" ],
+  "bugs": { "url": "https://github.shuttercorp.net/shutterstock/node-sample-app/issues" },
+  "scripts": { "start": "node bin/main" },
+  "dependencies": {
+    "express": "3.x",
+    "swig": "*",
+    "request": "*"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "repository": "git@github.shuttercorp.net:shutterstock/node-sample-app.git",
+  "licenses": [{
+    "type": "MIT",
+    "url": "http://opensource.org/licenses/MIT"
+  }]
+}
